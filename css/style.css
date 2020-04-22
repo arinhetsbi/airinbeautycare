@@ -1,0 +1,70 @@
+.slider h3,
+.slider h5
+.clients h3{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0,0.5);
+}
+
+.parallax-container{
+    height: 20%;
+}
+
+.parallax img{
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+section, footer{
+    padding: 20px 0;
+}
+
+figure {
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  img.racik {
+    width: 100%;
+  }
+
+  .mainmenubtn {
+    background-color: rgb(240, 134, 134);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+ 
+.mainmenubtn:hover {
+    background-color: rgb(240, 134, 134);
+    }
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(187, 76, 76);
+    min-width: 100px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
